@@ -9,10 +9,12 @@ public class Main {
         library.addBook(b2);
 
         Member m1 = new Member("Шалқар");
-        Member m2 = new Member("Жанар");
+        Member m2 = new Member("Xeniya");
 
         library.issueBook(m2, b1);
         library.issueBook(m1, b1);
+        library.issueBook(m1, b3);
+        library.returnBook(m2, b1);
     }
 }
 
